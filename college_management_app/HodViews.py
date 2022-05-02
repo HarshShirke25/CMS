@@ -418,7 +418,7 @@ def edit_student(request, student_id):
     form.fields['address'].initial = student.address
     form.fields['course_id'].initial = student.course_id.id
     form.fields['gender'].initial = student.gender
-    form.fields['session_year_id'].initial = student.session_year_id.id
+    
  
     context = {
         "id": student_id,
